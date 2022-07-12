@@ -1,0 +1,3 @@
+pics/*
+!pics/.keep
+__pycache__/
