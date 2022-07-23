@@ -15,6 +15,10 @@ def clear_temp():
         if file != '.keep':
             os.remove(f'temp/{file}')
 
+    for file in os.listdir('pics'):
+        if file != '.keep':
+            os.remove(f'pics/{file}')
+
 def main():
     xdim = 4096
     ydim = 4096
