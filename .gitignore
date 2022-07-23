@@ -1,3 +1,7 @@
 pics/*
 !pics/.keep
+outputs/*
+!outputs/.keep
+temp/*
+!temp/.keep
 __pycache__/

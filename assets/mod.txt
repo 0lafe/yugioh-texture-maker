@@ -1,0 +1,11 @@
+{
+	"name" : "YuGiOh Infamy cards",
+	"description" : "YuGiOh Infamy cards",
+	"author" : "0lafe (Punished Bernadetta)",
+	"version" : "10.10.21",
+	"blt_version" : 2,
+	"image" : "icon.dds",
+	"hooks" : [
+		{ "hook_id" : "lib/units/props/infamycardgui", "script_path" : "main.lua" }
+	]
+}

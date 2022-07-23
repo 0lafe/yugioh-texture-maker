@@ -1,0 +1,46 @@
+<dynamic_object>
+    <diesel orientation_object="rp_infamy_card" materials="units/menu/menu_scene/infamy_card" />
+    <sequence_manager file="units/menu/menu_scene/infamy_card" />
+	<bodies>
+		<body template="editor" name="editor_body" enabled="true">
+			<object name="c_box" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<animations>
+		<animation_group name="card" enabled="false">
+			<object name="a_anim" />
+		</animation_group>
+	</animations>
+	<graphics>
+		<object name="g_blank" 		enabled="false"/>
+		<object name="g_thirteen" 		enabled="false"/>
+		<object name="g_twelve" 		enabled="false"/>
+		<object name="g_twenty" 		enabled="false"/>
+		<object name="g_twentyfive" 	enabled="false"/>
+		<object name="g_twentyfour" 	enabled="false"/>
+		<object name="g_twentyone" 		enabled="false"/>
+		<object name="g_twentythree" 	enabled="false"/>
+		<object name="g_twentytwo" 		enabled="false"/>
+		<object name="g_sixteen" 		enabled="false"/>
+		<object name="g_seventeen" 		enabled="false"/>
+		<object name="g_nineteen" 		enabled="false"/>
+		<object name="g_fourteen" 		enabled="false"/>
+		<object name="g_fifteen" 		enabled="false"/>
+		<object name="g_eleven" 		enabled="false"/>
+		<object name="g_eighteen" 		enabled="false"/>
+		<object name="g_bomb" 			enabled="false"/>
+		<object name="g_joker" 			enabled="true"/>
+		<object name="g_sound" 			enabled="false"/>
+		<object name="g_exp" 			enabled="false"/>
+		<object name="g_two" 			enabled="false"/>
+		<object name="g_three" 			enabled="false"/>
+		<object name="g_four" 			enabled="false"/>
+		<object name="g_five" 			enabled="false"/>
+		<object name="g_six" 			enabled="false"/>
+		<object name="g_seven" 			enabled="false"/>
+		<object name="g_eight" 			enabled="false"/>
+		<object name="g_nine" 			enabled="false"/>
+		<object name="g_ten" 			enabled="false"/>
+		<object name="g_il" 			enabled="true"/>
+	</graphics>
+</dynamic_object>
