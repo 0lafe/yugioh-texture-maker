@@ -12,10 +12,10 @@ A complete zip file of the mod will be generated in the `/outputs` directory
 
 There are a few arguments you can pass to the function to change what cards you get
 
-The format for passing arguements is `key=value` with no spaces
+The format for passing arguements is `key=value` with no spaces.
 If you want to pass a string with spaces the syntax is `key="value with spaces"`
 
-Generally all [these fields are valid](https://db.ygoprodeck.com/api-guide/), and you can mix and match them together
+Generally all [these fields are valid](https://db.ygoprodeck.com/api-guide/#card-info), and you can mix and match them together
 
 If you supply an invalid query, the program should terminate and print the error sent back from the API. Generally this means you spelled something wrong, used contradictory inputs, or formatted the input incorrectly
 
